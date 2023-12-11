@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=karla:wght@400;')
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+h1{
+	font-size:6.5vw;
+}
+h3{
+	font-family:'merriweather',serif;
+	font-size:1.3rem;
+	font-weight:700;
+}
+h4{
+	font-family:'merriweather',serif;
+	font-size:1.1rem;
+	font-weight:700;
+	word-spacing:0.4vw;
+}
+h6{
+	font-size:0.9rem;
+	font-weight:700;
+	color:#6CAA7F;
+}
+p{
+	font-size:1rem;
+	font-family:'karla',sans-serif;
+	line-height:1.5rem;
+}
+button{
+	background:#6CAA7F;
+	border-style:none;
+	padding:0.7rem 1.3rem;
+	font-size:0.9rem;
+	font-weight:700;
+	letter-spacing:1px;
+	color:#fff;
+}
+hr{
+	background:green;
+	color:green;
+	height:0.07rem;
+}
+body{
+	font-family:'Montserrat',sans-serif;
+}
+header .intro{
+	position:relative;
+}
+
+header .intro .head{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+
+}
+header .intro .head h1{
+	font-family:"Leckerli One",cursive;
+	color:black;
+	
+}
+header .intro .head h6{
+	color:#27ae60;
+	letter-spacing:0.3rem;
+	font-size:20px;
+	font-weight:bold;
+}
+header .intro .head p{
+	font-size:20px;
+	font-weight:bold;
+}
+header .navbar .navbar-nav .nav-link:hover{
+	color:red;
+}
+header .navbar .navbar-nav i{
+	font-size:1.2rem;
+	color:#7aca8d;
+	cursor:pointer;
+}
+
+
+
+.container .row .card-body a:hover{
+	color:red;
+}
+
+
+.buy{
+	background:#defadb;
+}
+.buy .row .sub input{
+	outline:none;
+	border:1px solid #6caa7f;
+}
+.buy .row .sub input::placeholder{
+	font-size:0.9rem;
+}
+
+.Blog .row .post a{
+	font-size:o.9rem;
+	color:#27ae60;
+	font-weight:bold;
+	text-decoration:none;
+	border-style:none;
+}
+.Blog .row .post p{
+	font-style:italic;
+	font-weight:bold;
+	text-align:justify;
+}
+.Blog .row .sitebar .side2 .row .sidetext h4 {
+	font-size:1rem;
+}
+.Blog .row .sitebar .side2 .row .sidetext a{
+	text-decoration:none;
+	border-style:none;
+	color:#6caa7f;
+	font-size:0.9rem;
+}
+.Blog .side3 .one{
+	height:300px;
+	position:relative
+}
+
+
+.page-footer{
+	color:white;
+	background:#01796F;
+	text-align:center;
+}
+.footer-bottom{
+	background:#043927;
+	height:45px;
+	width:100%;
+}
+.footer-bottom p{
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+}
